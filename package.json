@@ -5,7 +5,8 @@
   "workspaces": [
     "apps/*",
     "libs/*",
-    "tools/*"
+    "tools/*",
+    "packages/*"
   ],
   "scripts": {
     "build": "nx run-many -t build",
@@ -64,6 +65,7 @@
     "nx": "22.0.1",
     "prettier": "^3.6.2",
     "react-refresh": "^0.10.0",
+    "tsdown": "^0.15.9",
     "tslib": "^2.3.0",
     "typescript": "^5.9.3",
     "webpack-cli": "^5.1.4"

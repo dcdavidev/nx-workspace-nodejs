@@ -1,8 +1,6 @@
 {
   "version": "0.2",
-  "import": [
-    "@spellbookx/cspell-config"
-  ],
+  "import": ["@spellbookx/cspell-config"],
   "words": [],
   "dictionaryDefinitions": [
     {
@@ -11,7 +9,5 @@
       "addWords": true
     }
   ],
-  "dictionaries": [
-    "custom-words"
-  ]
+  "dictionaries": ["custom-words"]
 }
