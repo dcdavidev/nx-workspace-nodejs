@@ -14,16 +14,17 @@ Each file documents one decision, using the community standard ADR format:
 
 ## Index
 
-| ID                                          | Title                                             | Status   | Date       |
-| ------------------------------------------- | ------------------------------------------------- | -------- | ---------- |
-| [ADR-001](./ADR-001-nx-monorepo.md)         | Monorepo Orchestrator — Nx                        | Accepted | 2025-10-23 |
-| [ADR-002](./ADR-002-git-hooks-lefthook.md)  | Git Hooks — Lefthook                              | Accepted | 2025-10-23 |
-| [ADR-003](./ADR-003-package-manager-npm.md) | Package Manager — npm                             | Accepted | 2025-10-23 |
-| [ADR-004](./ADR-004-code-quality-devkit.md) | Code Quality — Spellbook DevKit                   | Accepted | 2025-10-23 |
-| [ADR-005](./ADR-005-workspace-structure.md) | Workspace Structure — Apps, Libs, Tools, Packages | Accepted | 2025-10-23 |
-| [ADR-006](./ADR-006-testing-frameworks.md)  | Testing Frameworks — Deferred Choice              | Proposed | 2025-10-23 |
-| [ADR-007](./ADR-007-build-system.md)        | Build System — Nx + Webpack + Tsdown              | Accepted | 2025-10-23 |
-| [ADR-008](./ADR-008-versioning-releases.md) | Versioning & Releases — Controlled with Tsdown    | Accepted | 2025-10-23 |
+| ID                                            | Title                                             | Status   | Date       |
+| --------------------------------------------- | ------------------------------------------------- | -------- | ---------- |
+| [ADR-001](./ADR-001-nx-monorepo.md)           | Monorepo Orchestrator — Nx                        | Accepted | 2025-10-23 |
+| [ADR-002](./ADR-002-git-hooks-lefthook.md)    | Git Hooks — Lefthook                              | Accepted | 2025-10-23 |
+| [ADR-003](./ADR-003-package-manager-npm.md)   | Package Manager — npm                             | Accepted | 2025-10-23 |
+| [ADR-004](./ADR-004-code-quality-devkit.md)   | Code Quality — Spellbook DevKit                   | Accepted | 2025-10-23 |
+| [ADR-005](./ADR-005-workspace-structure.md)   | Workspace Structure — Apps, Libs, Tools, Packages | Accepted | 2025-10-23 |
+| [ADR-006](./ADR-006-testing-frameworks.md)    | Testing Frameworks — Deferred Choice              | Proposed | 2025-10-23 |
+| [ADR-007](./ADR-007-build-system.md)          | Build System — Nx + Webpack + Tsdown              | Accepted | 2025-10-23 |
+| [ADR-008](./ADR-008-versioning-releases.md)   | Versioning & Releases — Controlled with Tsdown    | Accepted | 2025-10-23 |
+| [ADR-009](./ADR-009-linting-formatting-ci.md) | Linting & Formatting — CI-First Approach          | Accepted | 2025-10-23 |
 
 ---
 
