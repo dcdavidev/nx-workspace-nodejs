@@ -1,20 +1,71 @@
 {
-  "name": "@nx-workspace-nodejs/source",
+  "name": "@dcdavidev/source",
   "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "22.0.1",
-    "@swc-node/register": "~1.9.1",
-    "@swc/core": "~1.5.7",
-    "@swc/helpers": "~0.5.11",
-    "nx": "22.0.1",
-    "tslib": "^2.3.0",
-    "typescript": "~5.9.2"
-  },
   "workspaces": [
-    "packages/*"
-  ]
+    "apps/*",
+    "libs/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "build": "nx run-many -t build",
+    "commit": "cz",
+    "fmt:check": "prettier . --check",
+    "fmt:fix": "prettier . --write",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:fmt": "npm run lint:fix && npm run fmt:fix",
+    "nx:agents": "nx configure-ai-agents",
+    "nx:agents:check": "nx configure-ai-agents --check",
+    "nx:agents:upgrade": "nx configure-ai-agents --agents codex gemini",
+    "nx:daemon:start": "nx daemon --start",
+    "nx:migrate": "nx migrate --run-migrations=migrations.json --if-exists && npm install",
+    "nx:repair": "nx repair",
+    "nx:reset": "nx reset",
+    "nx:sync": "nx sync",
+    "nx:upgrade": "nx migrate latest",
+    "prepare": "lefthook install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@cspell/cspell-types": "^9.2.2",
+    "@nx/js": "22.0.1",
+    "@nx/node": "^22.0.1",
+    "@nx/react": "^22.0.1",
+    "@nx/web": "22.0.1",
+    "@nx/webpack": "22.0.1",
+    "@nx/workspace": "^22.0.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@spellbookx/commitlint-config": "^0.21.1",
+    "@spellbookx/cspell-config": "^0.21.1",
+    "@spellbookx/eslint-plugin": "^0.21.1",
+    "@spellbookx/prettier-config": "^0.21.1",
+    "@svgr/webpack": "^8.0.1",
+    "@swc-node/register": "^1.11.1",
+    "@swc/core": "^1.13.5",
+    "@swc/helpers": "^0.5.17",
+    "@types/node": "20.19.9",
+    "commitizen": "^4.3.1",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "cspell": "^9.2.2",
+    "cz-git": "^1.12.0",
+    "eslint": "^9.38.0",
+    "lefthook": "^2.0.0",
+    "nx": "22.0.1",
+    "prettier": "^3.6.2",
+    "react-refresh": "^0.10.0",
+    "tslib": "^2.3.0",
+    "typescript": "^5.9.3",
+    "webpack-cli": "^5.1.4"
+  }
 }
