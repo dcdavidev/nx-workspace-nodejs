@@ -49,7 +49,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@spellbookx/commitlint-config": "^0.21.1",
     "@spellbookx/cspell-config": "^0.21.1",
-    "@spellbookx/eslint-plugin": "^0.21.1",
+    "@spellbookx/eslint-plugin": "^0.21.2",
     "@spellbookx/prettier-config": "^0.21.1",
     "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "^1.11.1",

@@ -1,1 +1,1 @@
-export * from './lib/baka.js';
+export { baka } from './lib/baka.js';
