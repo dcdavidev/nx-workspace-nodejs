@@ -13,7 +13,7 @@
 
 ## Decisions
 
-You are invited to read the [ARCHITECTURE DECISIONS](./DECISIONS.md) file for understanding why I chose a tool over another.
+You are invited to read the [ARCHITECTURE DECISIONS](./docs/decisions/README.md) file for understanding why I chose a tool over another.
 
 ## License
 
