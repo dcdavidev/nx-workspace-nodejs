@@ -48,7 +48,7 @@
     "@nx/workspace": "22.0.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
     "@spellbookx/commitlint-config": "^0.21.1",
-    "@spellbookx/cspell-config": "^0.21.1",
+    "@spellbookx/cspell-config": "^0.21.3",
     "@spellbookx/eslint-plugin": "^0.22.0",
     "@spellbookx/prettier-config": "^0.21.1",
     "@svgr/webpack": "^8.0.1",
